@@ -1,0 +1,68 @@
+.photocard {
+    width: 60px;
+    height: 50px;
+}
+
+.zoom {
+
+    transition: transform .2s;
+    width: 20px;
+    height: 35px;
+    margin-right: 50px;
+}
+
+.zoom:hover {
+    -ms-transform: scale(5.5);
+    /* IE 9 */
+    -webkit-transform: scale(5.5);
+    /* Safari 3-8 */
+    transform: scale(5.5);
+    color: #000;
+}
+
+td,
+th,
+tr {
+    text-align: center;
+}
+
+
+#bouton_page:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border: 2px solid rgb(0, 247, 255);
+
+}
+
+#bouton_page2,
+#bouton_page {
+    margin-left: 5px;
+    padding-top: 10px;
+    border: 1px solid white;
+
+}
+
+#bouton_actif {
+    background-color: rgb(32, 30, 30);
+    padding-top: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+#iconeA {
+    font-size: 70px;
+    margin-right: 15px;
+}
+
+#iconeNav {
+    font-size: 20px;
+}
+
+#iconeA:hover {
+    background-color: transparent;
+    color: rgb(54, 52, 52);
+}
+
+#spanText {
+    font-size: 14px;
+}
